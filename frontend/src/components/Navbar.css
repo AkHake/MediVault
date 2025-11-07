@@ -1,0 +1,155 @@
+/* NAVBAR BASE STYLING */
+.medi-navbar {
+  background: linear-gradient(90deg, #0F0D26 0%, #3e3473 40%, #745fc9 100%);
+  padding: 0.6rem 1.2rem;
+}
+
+/* NAV BUTTONS */
+.nav-btn {
+  background-color: #c8c0e8;
+  color: #0F0D26;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin: 0 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.nav-btn:hover {
+  background-color: #745fc9;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ACTIVE PAGE HIGHLIGHT */
+.nav-btn.active {
+  background-color: white !important;
+  color: #745fc9 !important;
+  box-shadow: 0 0 8px rgba(200, 192, 232, 0.7);
+  border: 2px solid #c8c0e8;
+}
+
+/* LOGOUT BUTTON SPECIAL */
+.logout-btn {
+  background-color: #745fc9;
+  color: white;
+}
+.logout-btn:hover {
+  background-color: #5c48b5;
+  color: #fff;
+}
+
+.nav-btn {
+  position: relative;
+}
+
+.nav-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #c8c0e8;
+  transition: width 0.3s ease;
+}
+
+.nav-btn:hover::after,
+.nav-btn.active::after {
+  width: 100%;
+}
+
+/* -------------------------
+   NAVBAR STYLING
+------------------------- */
+
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+/* -------------------------
+   NAV BUTTONS
+------------------------- */
+.nav-btn {
+  background-color: #c8c0e8;
+  color: #0F0D26;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin: 0 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.nav-btn:hover {
+  background-color: #745fc9;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Active page highlight */
+.nav-btn.active {
+  background-color: white !important;
+  color: #745fc9 !important;
+  box-shadow: 0 0 8px rgba(200, 192, 232, 0.7);
+  border: 2px solid #c8c0e8;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: #745fc9;
+  color: white;
+}
+.logout-btn:hover {
+  background-color: #5c48b5;
+}
+
+/* -------------------------
+   AVATAR CIRCLE
+------------------------- */
+.avatar-circle {
+  width: 36px;
+  height: 36px;
+  background-color: #c8c0e8;
+  color: #0F0D26;
+  border-radius: 50%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px rgba(200, 192, 232, 0.8);
+}
+
+/* Avatar hover effect */
+.avatar-circle:hover {
+  background-color: #745fc9;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Subtle underline animation (optional) */
+.nav-btn {
+  position: relative;
+}
+.nav-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #c8c0e8;
+  transition: width 0.3s ease;
+}
+.nav-btn:hover::after,
+.nav-btn.active::after {
+  width: 100%;
+}

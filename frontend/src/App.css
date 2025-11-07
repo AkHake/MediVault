@@ -1,0 +1,171 @@
+/* -------------------------
+   GLOBAL THEME COLORS
+------------------------- */
+
+:root {
+  --primary-color: #0F0D26;
+  --secondary-color: #745fc9;
+  --accent-color: #C8C0E8;
+}
+
+/* -------------------------
+   BODY & BASE STYLING
+------------------------- */
+body {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #C8C0E8 0%, #E8E6F5 50%, #C8C0E8 100%);
+  background-attachment: fixed;
+
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary-color);
+}
+
+/* -------------------------
+   NAVBAR
+------------------------- */
+.navbar {
+  background-color: var(--primary-color);
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+.navbar .btn {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  border: none;
+  font-weight: 500;
+}
+.navbar .btn:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* -------------------------
+   BUTTONS
+------------------------- */
+.btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+.btn-outline-primary:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* -------------------------
+   CARDS
+------------------------- */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(15, 13, 38, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(15, 13, 38, 0.15);
+}
+.card h6 {
+  color: var(--secondary-color);
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.card i {
+  transition: color 0.3s ease;
+}
+.card:hover i {
+  color: var(--primary-color);
+}
+
+
+/* -------------------------
+   FORMS
+------------------------- */
+.form-control {
+  border: 1.5px solid var(--secondary-color);
+  border-radius: 8px;
+}
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 4px var(--secondary-color);
+}
+
+/* -------------------------
+   FOOTER (Optional)
+------------------------- */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+.navbar {
+  background: linear-gradient(90deg, #0F0D26, #745fc9);
+}
+
+/* Apply theme to buttons globally */
+button, .btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Apply theme to form inputs */
+input, .form-control {
+  border: 1.5px solid var(--secondary-color);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+input:focus, .form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--secondary-color);
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 15px;
+  }
+  .card img {
+    max-height: 150px;
+  }
+}

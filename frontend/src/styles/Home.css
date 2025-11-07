@@ -1,0 +1,166 @@
+/* ----------------------------
+   HOME PAGE THEME
+---------------------------- */
+
+.home-wrapper {
+  background: radial-gradient(circle at 35% 25%, #dcd4f5 0%, #c8c0e8 40%, #b8b0d8 80%, #a89fd0 100%);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: #0F0D26;
+  background-size: 200% 200%;
+  animation: backgroundFlow 12s ease-in-out infinite;
+  padding-bottom: 80px;
+}
+
+@keyframes backgroundFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ----------------------------
+   HERO SECTION
+---------------------------- */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 8%;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0F0D26;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #745fc9;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #2d265b;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  font-size: 1rem;
+  color: #4b4379;
+  margin-bottom: 25px;
+}
+
+.hero-image img {
+  width: 420px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* ----------------------------
+   BUTTONS
+---------------------------- */
+.btn-primary {
+  display: inline-block;
+  background: linear-gradient(90deg, #745fc9 0%, #9d8add 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #6a54b8 0%, #8e7acc 100%);
+  box-shadow: 0 0 10px rgba(200, 192, 232, 0.4);
+}
+
+/* ----------------------------
+   FEATURES
+---------------------------- */
+.features {
+  text-align: center;
+  padding: 4rem 8%;
+}
+
+.features h2 {
+  color: #0F0D26;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(10px);
+  border-radius: 14px;
+  width: 270px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(116, 95, 201, 0.15);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(116, 95, 201, 0.25);
+}
+
+.feature-card h3 {
+  color: #745fc9;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #0F0D26;
+  font-size: 0.95rem;
+}
+
+/* ----------------------------
+   CTA
+---------------------------- */
+.cta-section {
+  text-align: center;
+  background: linear-gradient(135deg, #745fc9, #9d8add);
+  color: #fff;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  width: 85%;
+  margin: 4rem auto 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  color: #eae6fa;
+}
