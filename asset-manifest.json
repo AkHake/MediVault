@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MediVault/static/css/main.edeed3f0.css",
-    "main.js": "/MediVault/static/js/main.bd30b62f.js",
+    "main.css": "/MediVault/static/css/main.926a8611.css",
+    "main.js": "/MediVault/static/js/main.f64270f3.js",
     "static/js/453.d7446e4a.chunk.js": "/MediVault/static/js/453.d7446e4a.chunk.js",
     "static/media/bootstrap-icons.woff?": "/MediVault/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/MediVault/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/MediVault/index.html",
-    "main.edeed3f0.css.map": "/MediVault/static/css/main.edeed3f0.css.map",
-    "main.bd30b62f.js.map": "/MediVault/static/js/main.bd30b62f.js.map",
+    "main.926a8611.css.map": "/MediVault/static/css/main.926a8611.css.map",
+    "main.f64270f3.js.map": "/MediVault/static/js/main.f64270f3.js.map",
     "453.d7446e4a.chunk.js.map": "/MediVault/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edeed3f0.css",
-    "static/js/main.bd30b62f.js"
+    "static/css/main.926a8611.css",
+    "static/js/main.f64270f3.js"
   ]
 }
